@@ -3,10 +3,11 @@
   --title-color: #212121;
   --second-title-color: #ffffff;
   --accent-color: #2196f3;
+  --second-accent-color: #ffffff;
 }
 
 body {
-  font-family: Roboto, Raleway, sans-serif;
+  font-family: Roboto, sans-serif;
   color: #212121;
 }
 .list {
@@ -65,6 +66,7 @@ body {
   font-size: 44px;
   line-height: 1.5;
   text-align: center;
+  text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--second-title-color);
 }
@@ -88,6 +90,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--title-color);
 }
 .specificity-text {
@@ -182,7 +185,7 @@ body {
 }
 .projects-btn:hover,
 .projects-btn:focus {
-  background-color: var(--accent-color);
+  background-color: var(--second-accent-color);
 }
 .portfolio-name {
   font-weight: 700;
