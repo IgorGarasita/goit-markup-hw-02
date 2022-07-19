@@ -180,12 +180,13 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: var(--accent-color);
+  background-color: var(--second-accent-color);
   color: var(--title-color);
 }
 .projects-btn:hover,
 .projects-btn:focus {
-  background-color: var(--second-accent-color);
+  background-color: var(--accent-color);
+  color: var(--second-title-color);
 }
 .portfolio-name {
   font-weight: 700;
