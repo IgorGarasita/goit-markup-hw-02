@@ -3,7 +3,7 @@
   --title-color: #212121;
   --second-title-color: #ffffff;
   --accent-color: #2196f3;
-  --second-accent-color: #ffffff;
+  --second-accent-color: #f5f4fa;
 }
 
 body {
@@ -182,6 +182,7 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--second-accent-color);
   color: var(--title-color);
+  border: none;
 }
 .projects-btn:hover,
 .projects-btn:focus {
